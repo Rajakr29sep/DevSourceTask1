@@ -112,6 +112,28 @@
   }
 }
 
+#Saransh719_div{
+  background-color: rgba(213, 27, 27, 0.575);
+}
+
+#Saransh719_button{
+  @import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+  height: 50%;
+  width: 75%;
+  background-color: rgb(78, 218, 94);
+  font-family: "Playwrite GB S", cursive, sans-serif;
+  font-size: large;
+  font-weight: 500;
+  border-radius: 25px;
+  transition: background-color 1s, width 1s, height 1s, font-weight 1s linear;
+}
+
+#Saransh719_button:hover{
+  width: 50%;
+  height: 40%;
+  background-color: rgb(23, 184, 85);
+  font-weight: 900;
+}
 
 #logo {
   height: 90px;
