@@ -848,6 +848,40 @@ div {
   transform: translateY(0); 
   
   } 
+
+#AdarshSingh117{
+    color: white;
+    gap: 3;
+    background-color: orangered;
+    flex-direction: column;
+  }
+#AdarshSingh117_button {
+  outline: none;
+  border: none;
+  height: 50%;
+  width: 80%;
+  border-radius: 20px;
+  transition: all;
+  transition-duration: 0.5s;
+  color: black;
+  background-color: aqua;
+  font-size : 20px;
+  color:darkblue;
+  cursor: pointer;
+}
+
+#AdarshSingh117_button:hover{
+  background-color:antiquewhite;
+  color: purple;
+  box-shadow: 0 12px 16px 0 aqua, 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#AdarshSingh117_button:active{
+  background-color: antiquewhite;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
   #Arshpreet_1080{
     display: flex;
     flex-direction: column;
@@ -1192,3 +1226,4 @@ color: black;
 .shape {
   fill: #0E1822;
 }
+
