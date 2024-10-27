@@ -950,3 +950,35 @@ color: black;
   text-transform: uppercase;
 }
 
+#rachit_1080 {
+  display: flex;
+  flex-direction: column;
+  background-color: #e0f7fa;
+  box-shadow: 2px 2px 5px black;
+}
+
+#rachit_1080 p {
+  font-weight: bold;
+  font-size: large;
+}
+
+#rachit_1080_button {
+  position: relative;
+  border-radius: 10px;
+  border: none;
+  padding: 20px 35px;
+  color: white;
+  font-size: large;
+  background: rgb(62, 62, 204);
+  background: linear-gradient(
+    119deg,
+    rgba(62, 62, 204, 1) 15%,
+    rgba(0, 212, 255, 1) 100%
+    );
+  box-shadow: 2px 2px 5px black;
+  transition: transform 0.5s ease;
+}
+
+#rachit_1080_button:hover{
+  transform: scale(90%);
+}
