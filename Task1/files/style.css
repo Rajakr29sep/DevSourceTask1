@@ -3,6 +3,54 @@
   padding: 0;
   box-sizing: border-box;
 }
+/*My work */
+
+#UY1_1080{
+  background-color: #643A3E;
+  flex-direction: column;
+  opacity: 0.75;
+}
+#UY1_1080:hover{
+  opacity: 1;
+  transition: all;
+  transition-duration: 1s;
+}
+#UY1_1080_button{
+  height: 50%;
+  width: 75%;
+  border: none;
+  border-radius: 25px;
+}
+#UY1_1080_button:hover{
+  background-color: #80222B;
+  color: white;
+}
+
+#UY2_1080{
+  background-color: #00b4d8;
+  display: flex;
+  flex-direction: column;
+}
+#UY2_1080:hover{
+  transition: all;
+  transition-duration: 1s;
+  transform: translate(+4px);
+}
+#UY2_1080_button{
+  height: 50%;
+  width: 75%;
+  border: none;
+  border-radius: 25px;
+}
+#UY2_1080_button:hover{
+  background-color: #ffb703;
+  transform: translateY(+3px)translateZ(+3px);
+  color: white;
+}
+
+#UY3_1080{
+  background-color: #3a86ff;
+  flex-direction: column;
 
 #heheBoi_1080 {
   color: white;
@@ -77,6 +125,46 @@
   padding: 10px;
   margin: 10px;
 }
+#UY3_1080:hover{
+  
+  background-color: #e36414;
+}
+#UY3_1080_button{
+  height: 50%;
+  width: 75%;
+  border: none;
+  border-radius: 25px;
+}
+
+
+
+#UY_1080{
+  background-color: #1d4a9d;
+  color: greenyellow;
+  flex-direction: column;
+}
+#UY_1080:hover{
+  transition: all;
+  transition-duration: 2sec;
+  background-color: #002873;
+  transform: translate(+4px);
+}
+
+#UY_1080_button{
+   height: 50%;
+   width: 75%;
+   border: none;
+   border-radius: 25px;
+   
+}
+#UY_1080_button:hover{
+
+  transition: all;
+  transition-duration: 2s;
+  color: #d43300;
+  background-color: aqua;
+}
+
 
 #Unknown-Entity226_button {
   color: white;
@@ -528,7 +616,14 @@ div {
   gap: 2px;
 }
 
-#Adarsh_1080_button {
+#Adarsh_1080:hover{
+  transition: all;
+  transition-duration: 1s;
+  background-color: rgb(177, 19, 19);
+  transform: translate(+3px);
+}
+
+#Adarsh_1080_button{
   outline: none;
   border: none;
   height: 50%;
@@ -543,7 +638,7 @@ div {
   box-shadow: 5px 5px white;
   color: white;
   transition: all;
-  transition-duration: 0.5s;
+  transition-duration: 1s;
   background-color: black;
 }
 
