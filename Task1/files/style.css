@@ -3,6 +3,99 @@
   padding: 0;
   box-sizing: border-box;
 }
+#stanzin_1080_button {
+  background-color: #ff5733;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 24px;
+  font-size: 22px; 
+  font-weight: bold;
+  font-family: 'Arial Black', sans-serif; 
+  letter-spacing: 1.5px; 
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(255, 87, 51, 0.4); 
+  animation: pulse 2s infinite; 
+}
+
+#stanzin_1080_button:hover {
+  background-color: #ff2e00; 
+  transform: scale(1.05); 
+  box-shadow: 0 8px 25px rgba(255, 47, 0, 0.6); 
+}
+#stanzin_1080_button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  transform: translateX(-100%) rotate(45deg);
+  transition: all 0.4s ease;
+}
+
+#stanzin_1080_button:hover:before {
+  transform: translateX(100%) rotate(45deg);
+}
+
+#stanzin_1080_button:active {
+  background-color: #ff1a00;
+  box-shadow: 0 2px 10px rgba(255, 87, 51, 0.4);
+}
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); } 
+}
+#UY1_1080{
+  background-color: #643A3E;
+  flex-direction: column;
+  opacity: 0.75;
+}
+#UY1_1080:hover{
+  opacity: 1;
+  transition: all;
+  transition-duration: 1s;
+}
+#UY1_1080_button{
+  height: 50%;
+  width: 75%;
+  border: none;
+  border-radius: 25px;
+}
+#UY1_1080_button:hover{
+  background-color: #80222B;
+  color: white;
+}
+
+#UY2_1080{
+  background-color: #00b4d8;
+  display: flex;
+  flex-direction: column;
+}
+#UY2_1080:hover{
+  transition: all;
+  transition-duration: 1s;
+  transform: translate(+4px);
+}
+#UY2_1080_button{
+  height: 50%;
+  width: 75%;
+  border: none;
+  border-radius: 25px;
+}
+#UY2_1080_button:hover{
+  background-color: #ffb703;
+  transform: translateY(+3px)translateZ(+3px);
+  color: white;
+}
+
+#UY3_1080{
+  background-color: #3a86ff;
+  flex-direction: column;
 
 #heheBoi_1080 {
   color: white;
@@ -77,6 +170,46 @@
   padding: 10px;
   margin: 10px;
 }
+#UY3_1080:hover{
+  
+  background-color: #e36414;
+}
+#UY3_1080_button{
+  height: 50%;
+  width: 75%;
+  border: none;
+  border-radius: 25px;
+}
+
+
+
+#UY_1080{
+  background-color: #1d4a9d;
+  color: greenyellow;
+  flex-direction: column;
+}
+#UY_1080:hover{
+  transition: all;
+  transition-duration: 2sec;
+  background-color: #002873;
+  transform: translate(+4px);
+}
+
+#UY_1080_button{
+   height: 50%;
+   width: 75%;
+   border: none;
+   border-radius: 25px;
+   
+}
+#UY_1080_button:hover{
+
+  transition: all;
+  transition-duration: 2s;
+  color: #d43300;
+  background-color: aqua;
+}
+
 
 #Unknown-Entity226_button {
   color: white;
@@ -112,6 +245,28 @@
   }
 }
 
+#Saransh719_div{
+  background-color: rgba(213, 27, 27, 0.575);
+}
+
+#Saransh719_button{
+  @import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+  height: 50%;
+  width: 75%;
+  background-color: rgb(78, 218, 94);
+  font-family: "Playwrite GB S", cursive, sans-serif;
+  font-size: large;
+  font-weight: 500;
+  border-radius: 25px;
+  transition: background-color 1s, width 1s, height 1s, font-weight 1s linear;
+}
+
+#Saransh719_button:hover{
+  width: 50%;
+  height: 40%;
+  background-color: rgb(23, 184, 85);
+  font-weight: 900;
+}
 
 #logo {
   height: 90px;
@@ -506,7 +661,14 @@ div {
   gap: 2px;
 }
 
-#Adarsh_1080_button {
+#Adarsh_1080:hover{
+  transition: all;
+  transition-duration: 1s;
+  background-color: rgb(177, 19, 19);
+  transform: translate(+3px);
+}
+
+#Adarsh_1080_button{
   outline: none;
   border: none;
   height: 50%;
@@ -521,7 +683,7 @@ div {
   box-shadow: 5px 5px white;
   color: white;
   transition: all;
-  transition-duration: 0.5s;
+  transition-duration: 1s;
   background-color: black;
 }
 
@@ -731,6 +893,40 @@ div {
   transform: translateY(0); 
   
   } 
+
+#AdarshSingh117{
+    color: white;
+    gap: 3;
+    background-color: orangered;
+    flex-direction: column;
+  }
+#AdarshSingh117_button {
+  outline: none;
+  border: none;
+  height: 50%;
+  width: 80%;
+  border-radius: 20px;
+  transition: all;
+  transition-duration: 0.5s;
+  color: black;
+  background-color: aqua;
+  font-size : 20px;
+  color:darkblue;
+  cursor: pointer;
+}
+
+#AdarshSingh117_button:hover{
+  background-color:antiquewhite;
+  color: purple;
+  box-shadow: 0 12px 16px 0 aqua, 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#AdarshSingh117_button:active{
+  background-color: antiquewhite;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
   #Arshpreet_1080{
     display: flex;
     flex-direction: column;
@@ -983,7 +1179,6 @@ color: black;
   transform: scale(90%);
 }
 
-
 #raja_29 {
   display: flex;
   flex-direction: column;
@@ -1018,5 +1213,98 @@ color: black;
 }
 
 
+
+.ankit-button {
+  font-family: 'Ropa Sans', sans-serif;
+  color: white;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+  border: 1px solid #0E1822;
+  padding: 0.8rem 2.1rem;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 531.28 200'%3E%3Cdefs%3E%3Cstyle%3E .shape %7B fill: %23FF4655 /* fill: %230E1822; */ %7D %3C/style%3E%3C/defs%3E%3Cg id='Layer_2' data-name='Layer 2'%3E%3Cg id='Layer_1-2' data-name='Layer 1'%3E%3Cpolygon class='shape' points='415.81 200 0 200 115.47 0 531.28 0 415.81 200' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A");
+  background-color: #0E1822;
+  background-size: 200%;
+  background-position: 200%;
+  background-repeat: no-repeat;
+  transition: 0.3s ease-in-out;
+  transition-property: background-position, border, color;
+  position: relative;
+  z-index: 1;
+}
+
+.ankit-button:hover {
+  border: 1px solid #FF4655;
+  color: white;
+  background-position: 40%;
+}
+
+.ankit-button:before {
+  content: "";
+  position: absolute;
+  background-color: #0E1822;
+  width: 0.2rem;
+  height: 0.2rem;
+  top: -1px;
+  left: -1px;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.ankit-button:hover:before {
+  background-color: white;
+}
+
+.ankit-button:hover:after {
+  background-color: white;
+}
+
+.ankit-button:after {
+  content: "";
+  position: absolute;
+  background-color: #FF4655;
+  width: 0.3rem;
+  height: 0.3rem;
+  bottom: -1px;
+  right: -1px;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.ankit {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+}
+
+.ankit:before {
+  content: "";
+  position: absolute;
+  width: calc(100% + 0.5em);
+  height: 50%;
+  left: -0.3em;
+  top: -0.3em;
+  border: 1px solid #0E1822;
+  border-bottom: 0px;
+  opacity: 0.3;
+}
+
+.ankit:after {
+  content: "";
+  position: absolute;
+  width: calc(100% + 0.5em);
+  height: 50%;
+  left: -0.3em;
+  bottom: -0.3em;
+  border: 1px solid #0E1822;
+  border-top: 0px;
+  opacity: 0.3;
+  z-index: 0;
+}
+.ankit p{ 
+  font-size: 0px;
+}
+.shape {
+  fill: #0E1822;
+}
 
 
